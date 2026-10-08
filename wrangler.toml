@@ -1,14 +1,12 @@
 name = "beacon-cm"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
+compatibility_flags = ["nodejs_compat"]
 keep_vars = true
 
 [[routes]]
-pattern = "beacon.ssdxz.cc.cd/*"
-zone_name = "ssdxz.cc.cd"
-
-[vars]
-ADMIN = "809341047Yang"
+pattern = "beacon-pages-github-io.karsontsang23.workers.dev/*"
+zone_name = "beacon-pages-github-io.karsontsang23.workers.dev"
 
 # ...
 [[d1_databases]]
