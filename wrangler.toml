@@ -10,14 +10,16 @@ zone_name = "ssdxz.cc.cd"
 [vars]
 ADMIN = "809341047Yang"
 
-[[kv_namespaces]]
-binding = "KV"
-id = "08e0acf157184a189c5e1a14335603a5"				
-
+# ...
 [[d1_databases]]
 binding = "DB"
 database_name = "beacon-tunnel-db"
-database_id = "c17b4997-81f9-458b-bc7d-07369726f5eb"
+database_id = "57ad8dc0-c99a-4259-8c98-995f9a305917"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "0d3308096e1147fb87078715c4ca4af5"
+# ...
 
 [triggers]
 crons = ["0 */6 * * *"]
